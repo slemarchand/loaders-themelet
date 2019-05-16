@@ -1,0 +1,47 @@
+$loader-default-color: #2FA4F5 !global;
+
+$loader-default-background-color: white !global;
+
+@mixin loader-reset {
+
+    /* Reset properties used by the original loader */
+
+
+    .lfr-spa-loading .lfr-spa-loading-bar, .lfr-spa-loading-bar {
+        -moz-animation: none 0s ease 0s 1 normal none running;
+        -webkit-animation: none 0s ease 0s 1 normal none running;
+        -o-animation: none 0s ease 0s 1 normal none running;
+        -ms-animation: none 0s ease 0s 1 normal none running;
+        animation: none 0s ease 0s 1 normal none running;
+        display: block;
+        -webkit-transform: none;
+        -moz-transform: none;
+        -ms-transform: none;
+        -o-transform: none;
+        transform: none;
+        background: transparent;
+        right: initial;
+        bottom: initial;
+    }
+}
+
+@mixin loader-position($set-margin: true) {
+
+    /* Positionning */
+
+    .lfr-spa-loading .lfr-spa-loading-bar {
+        position: fixed;
+        top: 50%; 
+        left: 50%;
+        @if $set-margin {  
+            margin-top: -5em;  
+            margin-left: -5em;
+        }
+    }
+
+    .lfr-spa-loading .lfr-spa-loading-bar,
+    .lfr-spa-loading .lfr-spa-loading-bar:before,
+    .lfr-spa-loading .lfr-spa-loading-bar:after {
+      z-index: 1999999;
+    }
+}

@@ -1,0 +1,16 @@
+{
+	"name": "loaders-themelet",
+	"version": "1.0.0",
+	"main": "package.json",
+	"keywords": [
+		"liferay-theme"
+	],
+	"liferayTheme": {
+		"screenshot": "",
+		"themelet": true,
+		"version": "*"
+	},
+	"dependencies": {
+		"gulp": "^4.0.0"
+	}
+}
