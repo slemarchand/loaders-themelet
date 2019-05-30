@@ -9,7 +9,17 @@
 	},
 	"author": "S\u00e9bastien Le Marchand (https://slemarchand.com/)",
 	"keywords": [
-		"liferay-theme"
+		"liferay-theme",
+		"liferay",
+		"theme",
+		"themelet",
+		"loader",
+		"spinner",
+		"loaders",
+		"spinners",
+		"css",
+		"scss",
+		"sass"
 	],
 	"liferayTheme": {
 		"screenshot": "",
