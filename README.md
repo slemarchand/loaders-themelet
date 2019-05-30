@@ -1,5 +1,7 @@
 # Loaders Themelet
 
+[![npm version](https://badge.fury.io/js/loaders-themelet.svg)](https://badge.fury.io/js/loaders-themelet)
+
 A themelet providing eight alternative loaders.
 
 ![Loader 1](doc/loader1.gif) 
