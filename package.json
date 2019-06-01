@@ -1,13 +1,13 @@
 {
 	"name": "loaders-themelet",
-	"version": "1.0.0",
+	"version": "1.0.1",
 	"main": "package.json",
 	"license": "MIT",
 	"repository": {
 		"type": "git",
 		"url": "https://github.com/slemarchand/loaders-themelet.git"
 	},
-	"author": "S\u00e9bastien Le Marchand (https://slemarchand.com/)",
+	"author": "Sébastien Le Marchand (https://slemarchand.com/)",
 	"keywords": [
 		"liferay-theme",
 		"liferay",
@@ -29,4 +29,4 @@
 	"dependencies": {
 		"gulp": "^4.0.0"
 	}
- }
+}
