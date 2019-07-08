@@ -2,7 +2,7 @@
 
 [![npm version](https://badge.fury.io/js/loaders-themelet.svg)](https://badge.fury.io/js/loaders-themelet)
 
-A themelet providing eight alternative loaders, based on the [Single Element CSS Spinners](https://projects.lukehaas.me/css-loaders/) project created by [Luke Hass](https://lukehaas.me/).
+A themelet providing eight alternative loaders for Liferay 7.x, based on the [Single Element CSS Spinners](https://projects.lukehaas.me/css-loaders/) project created by [Luke Hass](https://lukehaas.me/).
 
 ![Loader 1](doc/loader1.gif) 
 ![Loader 2](doc/loader2.gif)
